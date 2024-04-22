@@ -1,0 +1,99 @@
+.carte_1 {
+  background-color: rgb(185, 230, 255);
+  width: 336px;
+  height: 225px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.carte_2 {
+  background-color: rgb(255, 237, 163);
+  width: 336px;
+  height: 225px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.carte_3 {
+  background-color: rgb(255, 242, 241);
+  width: 336px;
+  height: 225px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.carte_1 p {
+  display: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.carte_1:hover p {
+  display: block;
+}
+
+.carte_2 p {
+  display: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.carte_2:hover p {
+  display: block;
+}
+
+.carte_3 p {
+  display: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.carte_3:hover p {
+  display: block;
+}
+
+.section3 {
+  background-color: black;
+}
+
+ul {
+  background-color: black;
+  padding-top: 100px;
+
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.button-container .Button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Storytel Euclid";
+  cursor: pointer;
+  margin-bottom: 40px;
+  border-radius: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.button-container .Button:hover {
+  background-color: rgba(245, 245, 245, 0.89);
+}

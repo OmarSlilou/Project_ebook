@@ -1,0 +1,134 @@
+body {
+  margin-top: 75px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav div a {
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav div a img {
+  width: 50px;
+  margin: 0px 10px;
+  filter: hue-rotate("jaune");
+}
+
+nav div a:hover {
+  color: orangered;
+}
+
+.sinscrire {
+  gap: 8px;
+  cursor: pointer;
+  min-width: 10ch;
+  border: none;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Storytel Euclid", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03px;
+  padding: 1.2rem 1.6rem;
+  color: rgb(16, 16, 16);
+  background-color: rgb(255, 255, 255);
+  transition: all 0.2s ease-in-out;
+}
+
+.sinscrire:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.Ligne {
+  opacity: 0.4;
+  height: 100%;
+}
+
+.tb {
+  font-size: 25px;
+  color: white;
+}
+.border-inline-end {
+  border-inline-start: 1px solid rgb(92, 92, 92);
+  padding-inline-start: 3.2em;
+  border-inline-end: 1px solid rgb(92, 92, 92);
+  padding-inline-end: 0;
+  padding-block-end: 0;
+  padding-block-start: 0;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    background-color: black;
+    z-index: 999;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .sinscrire {
+    color: black;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+  }
+
+  .menu-links a:hover {
+    color: orangered;
+  }
+}
